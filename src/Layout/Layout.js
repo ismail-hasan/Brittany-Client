@@ -3,6 +3,8 @@ import About from '../Components/About/About';
 import Home from '../Components/Home/Home';
 import { AiFillGithub } from 'react-icons/ai';
 import './Layout.css'
+import Services from '../Components/Services/Services';
+import Projects from '../Components/Projects/Projects';
 
 const Layout = () => {
     return (
@@ -19,6 +21,8 @@ const Layout = () => {
             <div className='max-w-[1000px] mx-auto'>
                 <Home></Home>
                 <About></About>
+                <Services></Services>
+                <Projects></Projects>
             </div>
         </div>
     );
