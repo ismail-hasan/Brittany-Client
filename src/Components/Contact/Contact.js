@@ -1,22 +1,24 @@
 import React from 'react';
 import { BsTelephone } from 'react-icons/bs'
+import { MdLocationOn } from 'react-icons/md'
+import { FaEnvelope } from 'react-icons/fa'
 import "./Contact.css"
 
 
 
 const Contact = () => {
     return (
-        <div className='text-white relative'>
-            <div>
+        <div className='text-white relative h-screen'>
+            <div className='pb-10 '>
                 <h1 className='line-heading text-[27px] text-white'>Contact Us</h1>
                 <p className='text-lg pt-2'>Although I’m not currently l open. Whetry my best to get back to you!
                 </p>
             </div>
 
-            <div className='flex mt-10 items-center justify-center'>
-                <div className='w-[40%] border '>
-                    <h1 className='text-[28px]'>Contact Information</h1>
-                    <p> Lorem ipsuolor laboriosam doloremque nobis. Reiciendis consectetur optio nemo officiis maiores exercitationem aut a maxime praesentium magni.</p>
+            <div className='flex gap-16 mt-10 items-center justify-center text-lg '>
+                <div className='css-glass w-[40%]'>
+                    <h1 className='text-[28px] py-4'>Contact Information</h1>
+                    <p> Lorem ipsuolor laboriosam exercitationem aut a maxime praesentium magni.</p>
                     <div className='flex items-center mt-5'>
                         <BsTelephone></BsTelephone>
                         <div className='ml-5'>
@@ -25,28 +27,34 @@ const Contact = () => {
                         </div>
                     </div>
                     <div className='flex items-center mt-5'>
-                        <BsTelephone></BsTelephone>
+                        <FaEnvelope></FaEnvelope>
                         <p className='ml-5'>fnismail@gmail.com</p>
                     </div>
-                    <div className='flex items-center mt-5'>
-                        <BsTelephone></BsTelephone>
+                    <div className='flex items-center mt-5 pb-10'>
+                        <MdLocationOn></MdLocationOn>
                         <p className='ml-5'>Arippur, Hazir Hat, Pabna Sadar</p>
                     </div>
                 </div>
-                <div className='w-[60%] border border-red-400 '>
-                    <div class=" flex gap-x-10">
-                        <div class="form-item">
+                <div className='w-[55%]'>
+                    <div class="flex gap-5">
+                        <div class="form-item w-1/2 pt-3">
                             <input type="text" id="username" autocomplete="off" required />
-                            <label for="username">Username</label>
+                            <label for="username">Name</label>
                         </div>
-
-                        <div class="form-item">
-                            <input type="password" id="password" autocomplete="off" required />
-                            <label for="password">Password</label>
+                        <div class="form-item w-1/2 pt-3">
+                            <input type="text" id="username" autocomplete="off" required />
+                            <label for="username">Name</label>
                         </div>
-
                     </div>
-
+                    <div class="form-item pt-3">
+                        <input type="text" id="text" autocomplete="off" required />
+                        <label for="text">Subject</label>
+                    </div>
+                    <div class="form-item pt-3">
+                        <textarea type="" id="message" rows="7" cols="50" autocomplete="off" required />
+                        <label for="message">Message</label>
+                    </div>
+                    <button className='bg-indigo-500 px-5 py-2 mt-5'>Send Message</button>
                 </div>
             </div>
         </div>

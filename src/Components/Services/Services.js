@@ -1,4 +1,5 @@
 import React from 'react';
+import "./Services.css"
 
 const Services = () => {
     return (
@@ -8,7 +9,7 @@ const Services = () => {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
             <div className='grid grid-cols-2 gap-5 w-[70%] '>
-                <div className='bg-black h-[200px]'>
+                <div className='bg-glass h-[200px]'>
                     <h1 className='text-[22px] text-white'>hello dear</h1>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis sunt numquam culpa ullam iusto natus voluptatum reiciendis. Explicabo, maxime quo!</p>
                 </div>

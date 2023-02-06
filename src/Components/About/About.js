@@ -17,10 +17,10 @@ const About = () => {
                             <li>MongoDB</li>
                         </ul>
                         <ul className='list'>
+                            <li>Firebase</li>
+                            <li>WordPress</li>
                             <li>TypeScript</li>
-                            <li>TypeScript</li>
-                            <li>TypeScript</li>
-                            <li>TypeScript</li>
+                            <li>TailWind CSS</li>
 
                         </ul>
                     </div>

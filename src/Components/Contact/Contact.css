@@ -3,35 +3,34 @@
     outline: none
 }
 
-.form {
-    width: 100%;
-    /* background: #fff */
-}
-
 .form-item {
     position: relative;
     margin-bottom: 15px
 }
 
-.form-item input {
-    height: 40px;
-    /* width: 100px; */
+.form-item input,
+.form-item textarea {
+    height: 50px;
+    width: 100%;
     background: transparent;
-    border: solid 1px #ccc;
+    border: none;
+    border-bottom: 2px solid #CCC;
     transition: all .3s ease;
     padding: 0 15px
 }
 
-/* .form-item input:focus {
-    border-color: blue
-} */
+.form-item textarea {
+    height: 120px;
+    margin-top: 10px;
+}
+
 
 .form-item label {
     position: absolute;
     cursor: text;
     z-index: 2;
     top: 13px;
-    left: 10px;
+    left: 0px;
     font-size: 12px;
     font-weight: bold;
     background: #0A192F;
@@ -41,11 +40,18 @@
 }
 
 .form-item input:focus+label,
-.form-item input:valid+label {
+.form-item input:valid+label,
+.form-item textarea:focus+label,
+.form-item textarea:valid+label {
     font-size: 13px;
     top: -5px
 }
 
-/* .form-item input:focus+label {
-    color: blue
-} */
+.css-glass {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    padding: 10px 40px;
+}

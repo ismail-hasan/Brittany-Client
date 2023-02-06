@@ -3,6 +3,7 @@ import About from '../Components/About/About';
 import Home from '../Components/Home/Home';
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { FaFacebook } from 'react-icons/fa';
+import { MdCopyright } from 'react-icons/md';
 import './Layout.css'
 import Services from '../Components/Services/Services';
 import Projects from '../Components/Projects/Projects';
@@ -27,6 +28,10 @@ const Layout = () => {
                 <Projects></Projects>
                 <Pakage></Pakage>
                 <Contact></Contact>
+            </div>
+            <div className='flex justify-center items-center text-white text-lg pb-[30px]'>
+                <MdCopyright className='text-[27px]'></MdCopyright>
+                <span className='ml-3'> Designed & Built By Ismail Hasan</span>
             </div>
         </div>
     );
