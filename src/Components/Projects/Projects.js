@@ -1,9 +1,12 @@
 import React from 'react';
+import { BsBoxArrowUpRight } from 'react-icons/bs';
+import { AiOutlineGithub } from 'react-icons/ai';
+
 
 const Projects = () => {
     return (
-        <div>
-            <h1 className='text-[27px] text-white'>Some Things I’ve Built</h1>
+        <div className='relative'>
+            <h1 className='line-heading text-[27px] text-white'>About Me</h1>
             <div className='flex items-center gap-x-[45px] mt-6'>
                 <div className='w-[60%]'>
                     <img className='' src="https://plus.unsplash.com/premium_photo-1668473365948-8a92c2d1fa78?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80" alt="" />
@@ -36,6 +39,10 @@ const Projects = () => {
                         <p className='bg-red-500 text-white px-5 py-1 rounded-[30px]'>html5</p>
                         <p className='bg-red-500 text-white px-5 py-1 rounded-[30px]'>html5</p>
                         <p className='bg-red-500 text-white px-5 py-1 rounded-[30px]'>html5</p>
+                    </div>
+                    <div className='flex mt-4'>
+                        <AiOutlineGithub className='text-[28px] mr-4'></AiOutlineGithub>
+                        <BsBoxArrowUpRight className='text-[25px]'></BsBoxArrowUpRight>
                     </div>
                 </div>
                 <div className='w-[60%]'>

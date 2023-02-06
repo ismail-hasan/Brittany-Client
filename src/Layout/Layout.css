@@ -5,3 +5,13 @@
     background-color: #fff;
     bottom: -136px;
 }
+
+.icon {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.icon:hover {
+    color: rebeccapurple;
+    transform: translate(-50%, 50%)
+}

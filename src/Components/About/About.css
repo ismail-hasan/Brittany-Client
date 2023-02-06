@@ -1,10 +1,51 @@
-.border-extra::before {
+.about-img::before {
     content: "";
     position: absolute;
-    border: 5px solid red;
-    margin-top: 10px;
+    top: 28px;
+    left: 26px;
+    height: 100%;
+    width: 100%;
+    border: 2px solid #fff;
+    z-index: -2;
+    border-radius: 7px;
+    transition: .3s ease-in-out;
+}
+
+.about-img:hover::before {
+    top: 20px;
+    left: 20px;
+
+}
+
+.about-img {
+    filter: grayscale(90%);
+    transition: .5s;
+}
+
+.about-img:hover {
+    cursor: pointer;
+    filter: grayscale(0%);
+
+}
+
+.line-heading::before {
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 2px;
     background-color: #fff;
-    height: 100px;
-    z-index: 999;
-    width: 100px;
+    top: 24px;
+    left: 133px;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.list li::before {
+    content: "«";
+    color: rgb(8, 232, 83);
+    font-weight: bold;
+    display: inline-block;
+    width: 2em;
 }
