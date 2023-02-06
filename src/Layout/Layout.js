@@ -5,15 +5,16 @@ import { AiFillGithub } from 'react-icons/ai';
 import './Layout.css'
 import Services from '../Components/Services/Services';
 import Projects from '../Components/Projects/Projects';
+import Pakage from '../Components/Pakage/Pakage';
 
 const Layout = () => {
     return (
         <div className='bg-[#0A192F] relative'>
-            <div className='fixed bottom-[130px] left-10 flex  items-center flex-col'>
-                <AiFillGithub className='text-4xl text-white'></AiFillGithub>
-                <AiFillGithub className='text-4xl text-white'></AiFillGithub>
-                <AiFillGithub className='text-4xl text-white'></AiFillGithub>
-                <AiFillGithub className='text-4xl text-white'></AiFillGithub>
+            <div className='fixed bottom-[130px] left-10 flex  items-center flex-col gap-y-4'>
+                <AiFillGithub className='text-3xl text-white'></AiFillGithub>
+                <AiFillGithub className='text-3xl text-white'></AiFillGithub>
+                <AiFillGithub className='text-3xl text-white'></AiFillGithub>
+                <AiFillGithub className='text-3xl text-white'></AiFillGithub>
                 <div className='line'>
 
                 </div>
@@ -23,6 +24,7 @@ const Layout = () => {
                 <About></About>
                 <Services></Services>
                 <Projects></Projects>
+                <Pakage></Pakage>
             </div>
         </div>
     );
