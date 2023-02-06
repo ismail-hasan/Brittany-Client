@@ -6,7 +6,7 @@ import { AiOutlineGithub } from 'react-icons/ai';
 const Projects = () => {
     return (
         <div className='relative'>
-            <h1 className='line-heading text-[27px] text-white'>About Me</h1>
+            <h1 className='line-heading text-[27px] mt-20 text-white'>Our Projects</h1>
             <div className='flex items-center gap-x-[45px] mt-6'>
                 <div className='w-[60%]'>
                     <img className='' src="https://plus.unsplash.com/premium_photo-1668473365948-8a92c2d1fa78?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80" alt="" />
