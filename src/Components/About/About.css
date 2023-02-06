@@ -1,0 +1,10 @@
+.border-extra::before {
+    content: "";
+    position: absolute;
+    border: 5px solid red;
+    margin-top: 10px;
+    background-color: #fff;
+    height: 100px;
+    z-index: 999;
+    width: 100px;
+}
