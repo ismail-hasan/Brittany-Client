@@ -34,16 +34,16 @@ const Pakage = () => {
         },
     ]
     return (
-        <div className='h-screen mt-10'>
-            <div className='grid grid-cols-3 gap-8 '>
-
+        <div className='h-screen mt-20 relative'>
+            <h1 className='line-heading text-[27px] capitalize text-white'>choose the pakage thats fit you need</h1>
+            <div className='grid grid-cols-3 gap-8 mt-10'>
                 {
                     pakageData.map(pakage => {
                         return (
                             <div className='bg-[#112240] py-10 text-lg text-white flex items-center flex-col'>
                                 <h1 className='text-[28px]'>Baisc</h1>
                                 <h1 className='text-[42px] mt-5'>${pakage.price}</h1>
-                                <div className='py-5'>
+                                <div className='py-5 flex flex-col gap-4 my-5'>
                                     <h1 className='capitalize'>{pakage.website} pages website design</h1>
                                     <h1 className='capitalize'>{pakage.responsive}</h1>
                                     <h1 className='capitalize'>{pakage.performance}</h1>
