@@ -20,6 +20,9 @@
 .about-img {
     filter: grayscale(90%);
     transition: .5s;
+    /* width: 375px; */
+    /* height: 400px; */
+
 }
 
 .about-img:hover {

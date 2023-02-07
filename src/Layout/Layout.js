@@ -9,15 +9,26 @@ import Services from '../Components/Services/Services';
 import Projects from '../Components/Projects/Projects';
 import Pakage from '../Components/Pakage/Pakage';
 import Contact from '../Components/Contact/Contact';
+import { Link } from 'react-router-dom';
 
 const Layout = () => {
     return (
-        <div className='bg-[#0A192F] relative'>
-            <div className='fixed bottom-[130px] left-10 flex  items-center flex-col gap-y-5'>
-                <AiFillGithub className='text-[24px] icon text-white'></AiFillGithub>
-                <AiFillLinkedin className='text-[24px] icon text-white'></AiFillLinkedin>
-                <FaFacebook className='text-[24px] icon text-white'></FaFacebook>
-                <AiFillGithub className='text-[24px] icon text-white'></AiFillGithub>
+        <div className='bg-[#0A192F]  relative'>
+            <div className='fixed bottom-[130px] left-10 flex  items-center flex-col gap-6'>
+
+                <Link to="https://github.com/ismail-hasan" target="_blank">
+                    <AiFillGithub className='text-[24px] icon text-white'></AiFillGithub>
+                </Link>
+                <Link to="https://github.com/ismail-hasan" target="_blank">
+                    <AiFillGithub className='text-[24px] icon text-white'></AiFillGithub>
+                </Link>
+                <Link to="https://github.com/ismail-hasan" target="_blank">
+                    <AiFillGithub className='text-[24px] icon text-white'></AiFillGithub>
+                </Link>
+                <Link to="https://github.com/ismail-hasan" target="_blank">
+                    <AiFillGithub className='text-[24px] icon text-white'></AiFillGithub>
+                </Link>
+               
                 <div className='line'>
                 </div>
             </div>

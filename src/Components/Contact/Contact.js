@@ -8,8 +8,8 @@ import "./Contact.css"
 
 const Contact = () => {
     return (
-        <div className='text-white relative h-screen'>
-            <div className='pb-10 '>
+        <div className='text-white relative h-screen mt-20'>
+            <div className='pb-5 '>
                 <h1 className='line-heading text-[27px] text-white'>Contact Us</h1>
                 <p className='text-lg pt-2'>Although I’m not currently l open. Whetry my best to get back to you!
                 </p>
@@ -18,7 +18,7 @@ const Contact = () => {
             <div className='flex gap-16 mt-10 items-center justify-center text-lg '>
                 <div className='css-glass w-[40%]'>
                     <h1 className='text-[28px] py-4'>Contact Information</h1>
-                    <p> Lorem ipsuolor laboriosam exercitationem aut a maxime praesentium magni.</p>
+                    <p> Lorem ipsuolor laboriosam  aut aut aut a maxime praesentium magni.</p>
                     <div className='flex items-center mt-5'>
                         <BsTelephone></BsTelephone>
                         <div className='ml-5'>
@@ -28,7 +28,7 @@ const Contact = () => {
                     </div>
                     <div className='flex items-center mt-5'>
                         <FaEnvelope></FaEnvelope>
-                        <p className='ml-5'>fnismail@gmail.com</p>
+                        <p className='ml-5'>fnismailhasan@gmail.com</p>
                     </div>
                     <div className='flex items-center mt-5 pb-10'>
                         <MdLocationOn></MdLocationOn>

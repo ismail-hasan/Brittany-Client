@@ -1,4 +1,5 @@
 import React from 'react';
+import "./Pakage.css"
 
 const Pakage = () => {
     const pakageData = [
@@ -13,7 +14,7 @@ const Pakage = () => {
             spreed: "spreed optimization"
         },
         {
-            plan: "basic",
+            plan: "Standard",
             website: "3-5",
             price: 150,
             responsive: "responsive design",
@@ -23,7 +24,7 @@ const Pakage = () => {
             spreed: "spreed optimization"
         },
         {
-            plan: "basic",
+            plan: "Premium",
             price: 150,
             website: "6-10",
             responsive: "responsive design",
@@ -40,8 +41,8 @@ const Pakage = () => {
                 {
                     pakageData.map(pakage => {
                         return (
-                            <div className='bg-[#112240] py-10 text-lg text-white flex items-center flex-col'>
-                                <h1 className='text-[28px]'>Baisc</h1>
+                            <div className='bg-[#112240] py-10 text-lg text-white flex items-center flex-col highlights'>
+                                <h1 className='text-[28px] capitalize tracking-[1px]'>{pakage.plan}</h1>
                                 <h1 className='text-[42px] mt-5'>${pakage.price}</h1>
                                 <div className='py-5 flex flex-col gap-4 my-5'>
                                     <h1 className='capitalize'>{pakage.website} pages website design</h1>
