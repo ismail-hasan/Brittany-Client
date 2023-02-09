@@ -2,7 +2,7 @@ import React from 'react';
 
 const Button = (props) => {
     return (
-        <button className='border border-[aqua] px-5 py-5 md:ml-7' >
+        <button className='border-2 border-[aqua] px-5 py-2 md:ml-7' >
             {props.children}
         </button>
     );

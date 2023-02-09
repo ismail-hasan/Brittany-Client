@@ -16,23 +16,25 @@ const Contact = () => {
             </div>
 
             <div className='flex gap-16 mt-10 items-center justify-center text-lg '>
-                <div className='css-glass w-[40%]'>
-                    <h1 className='text-[28px] py-4'>Contact Information</h1>
-                    <p> Lorem ipsuolor laboriosam  aut aut aut a maxime praesentium magni.</p>
-                    <div className='flex items-center mt-5'>
-                        <BsTelephone className='text-[20px]'></BsTelephone>
-                        <div className='ml-5'>
-                            <p>+880 1776458113</p>
-                            <p>+880 1586153445</p>
+                <div className='css-glass w-[40%] '>
+                    <div className='py-8'>
+                        <h1 className='text-[28px] py-4'>Contact Information</h1>
+                        <p> Lorem ipsuolor laboriosam  aut aut aut a maxime praesentium magni.</p>
+                        <div className='flex items-center mt-5'>
+                            <BsTelephone className='text-[20px]'></BsTelephone>
+                            <div className='ml-5'>
+                                <p>+880 1776458113</p>
+                                <p>+880 1586153445</p>
+                            </div>
                         </div>
-                    </div>
-                    <div className='flex items-center mt-5'>
-                        <FaEnvelope className='text-[20px]'></FaEnvelope>
-                        <p className='ml-5'>fnismailhasan@gmail.com</p>
-                    </div>
-                    <div className='flex items-center mt-5 pb-10'>
-                        <MdLocationOn className='text-[20px]'></MdLocationOn>
-                        <p className='ml-5'>Arippur, Hazir Hat, Pabna Sadar</p>
+                        <div className='flex items-center mt-5'>
+                            <FaEnvelope className='text-[20px]'></FaEnvelope>
+                            <p className='ml-5'>fnismailhasan@gmail.com</p>
+                        </div>
+                        <div className='flex items-center mt-5 pb-10'>
+                            <MdLocationOn className='text-[20px]'></MdLocationOn>
+                            <p className='ml-5'>Arippur, Hazir Hat, Pabna Sadar</p>
+                        </div>
                     </div>
                 </div>
                 <div className='w-[55%]'>

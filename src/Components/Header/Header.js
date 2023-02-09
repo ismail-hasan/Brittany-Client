@@ -13,13 +13,13 @@ const Header = () => {
         <div className='w-full fixed top-0 left-0 z-50'>
             <div className='md:flex md:items-center md:justify-between bg-white  px-[100px] py-3'>
                 <h1 className='text-[35px] font-bold'>ISMAIL</h1>
-                <ul className='md:flex text-[18px] capitalize'>
+                <ul className='md:flex md:items-center text-[18px] capitalize'>
                     {
                         links.map((link, idx) => {
                             return (
                                 <div key={idx}>
                                     <div>
-                                        <li className='ml-5'>
+                                        <li className='ml-7'>
                                             <Link to="/">{link.name}</Link>
                                         </li>
                                     </div>

@@ -45,7 +45,6 @@ const Pakage = () => {
                                 <div className='py-5 flex flex-col gap-4 my-5'>
                                     <h1 className='capitalize'>{pakage.website} page website design</h1>
                                     <h1 className='capitalize'>{pakage.responsive}</h1>
-                                    <h1 className='capitalize'>{pakage.performance}</h1>
                                     <h1 className='capitalize'>{pakage.ecommerce}</h1>
                                     <h1 className='capitalize'>{pakage.seo}</h1>
                                     <h1 className='capitalize'>{pakage.spreed}</h1>
