@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Home = () => {
     return (
-        <div className='h-screen text-[#CCD6F6] flex justify-center  flex-col w-[75%]'>
+        <div className='h-screen text-[#CCD6F6] flex justify-center md:mt-[35px] flex-col w-[75%]'>
             <h1 className=''>Hi, my name is</h1>
             <h1 className='text-[53px] font-bold tracking-[2px] capitalize'>Ismail Hossain</h1>
             <h1 className='text-[53px] capitalize'>I will Design Your imagination</h1>
