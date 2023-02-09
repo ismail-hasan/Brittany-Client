@@ -15,8 +15,8 @@ const Contact = () => {
                 </p>
             </div>
 
-            <div className='flex gap-16 mt-10 items-center justify-center text-lg '>
-                <div className='css-glass w-[40%] '>
+            <div className='md:flex gap-16 mt-10 items-center justify-center text-lg '>
+                <div className='css-glass w-[100%] md:w-[40%] '>
                     <div className='py-8'>
                         <h1 className='text-[28px] py-4'>Contact Information</h1>
                         <p> Lorem ipsuolor laboriosam  aut aut aut a maxime praesentium magni.</p>
@@ -37,7 +37,7 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <div className='w-[55%]'>
+                <div className='w-[100%] md:w-[55%]'>
                     <div className="flex gap-5">
                         <div className="form-item w-1/2 pt-3">
                             <input type="text" id="username" autoComplete="off" required />

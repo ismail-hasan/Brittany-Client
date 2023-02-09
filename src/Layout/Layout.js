@@ -17,7 +17,7 @@ import Header from '../Components/Header/Header';
 const Layout = () => {
     return (
         <div className='bg-[#0A192F]  relative'>
-            <div className='fixed bottom-[130px] left-10 flex  items-center flex-col gap-6'>
+            <div className='hidden lg:flex fixed bottom-[130px] left-10  items-center flex-col gap-6'>
 
                 <Link to="https://github.com/ismail-hasan" target="_blank">
                     <FiGithub className='text-[22px] icon text-white'></FiGithub>
@@ -36,7 +36,7 @@ const Layout = () => {
                 </div>
             </div>
             <Header></Header>
-            <div className='max-w-[1000px] mx-auto'>
+            <div className='max-w-[1000px]  mx-12 md:mx-auto'>
 
                 <Home></Home>
                 <About></About>

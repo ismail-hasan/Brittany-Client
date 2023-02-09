@@ -4,8 +4,8 @@ import img from "../../assests/IMG_20190303_112235.jpg"
 
 const About = () => {
     return (
-        <div className='flex justify-between items-center h-screen'>
-            <div className='w-[50%] relative'>
+        <div className='md:flex justify-between items-center h-screen'>
+            <div className='w-full md:w-[50%] relative'>
                 <h1 className='line-heading text-[27px] text-white'>About Me</h1>
                 <div className='text-[#8892b0] text-lg'>
                     <h1 className='my-5 '>Hello! My name is Brittany and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS! </h1>
@@ -27,7 +27,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div className='w-[45%] relative about-img z-10'>
+            <div className='w-full md:w-[45%] relative about-img z-10 mt-10 md:mt-0'>
                 <img className='about-img' src={img} alt="" />
             </div>
 
