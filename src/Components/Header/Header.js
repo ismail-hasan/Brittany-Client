@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Button from '../../Custom Hook/Button';
 
 const Header = () => {
     let links = [
@@ -26,6 +27,7 @@ const Header = () => {
                             )
                         })
                     }
+                    <Button>Resume</Button>
                 </ul>
             </div>
         </div>

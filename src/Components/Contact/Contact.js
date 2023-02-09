@@ -38,20 +38,20 @@ const Contact = () => {
                 <div className='w-[55%]'>
                     <div className="flex gap-5">
                         <div className="form-item w-1/2 pt-3">
-                            <input type="text" id="username" autocomplete="off" required />
+                            <input type="text" id="username" autoComplete="off" required />
                             <label htmlFor="username">Name</label>
                         </div>
                         <div className="form-item w-1/2 pt-3">
-                            <input type="text" id="username" autocomplete="off" required />
+                            <input type="text" id="username" autoComplete="off" required />
                             <label htmlFor="username">Name</label>
                         </div>
                     </div>
                     <div className="form-item pt-3">
-                        <input type="text" id="text" autocomplete="off" required />
+                        <input type="text" id="text" autoComplete="off" required />
                         <label htmlFor="text">Subject</label>
                     </div>
                     <div className="form-item pt-3">
-                        <textarea type="" id="message" rows="7" cols="50" autocomplete="off" required />
+                        <textarea type="" id="message" rows="7" cols="50" autoComplete="off" required />
                         <label htmlFor="message">Message</label>
                     </div>
                     <button className='bg-indigo-500 px-5 py-2 mt-5'>Send Message</button>
