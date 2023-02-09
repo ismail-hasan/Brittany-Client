@@ -1,25 +1,24 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import "./Pakage.css"
 
 const Pakage = () => {
     const pakageData = [
         {
             plan: "basic",
-            price: 150,
-            website: 3,
+            price: 5,
+            website: 1,
             responsive: "responsive design",
             ecommerce: "eCommerce",
-            performance: "performance optimization",
             seo: "basic SEO",
             spreed: "spreed optimization"
         },
         {
             plan: "Standard",
             website: "3-5",
-            price: 150,
+            price: 95,
             responsive: "responsive design",
             ecommerce: "eCommerce",
-            performance: "performance optimization",
             seo: "basic SEO",
             spreed: "spreed optimization"
         },
@@ -29,7 +28,6 @@ const Pakage = () => {
             website: "6-10",
             responsive: "responsive design",
             ecommerce: "eCommerce",
-            performance: "performance optimization",
             seo: "basic SEO",
             spreed: "spreed optimization"
         },
@@ -45,14 +43,17 @@ const Pakage = () => {
                                 <h1 className='text-[28px] capitalize tracking-[1px]'>{pakage.plan}</h1>
                                 <h1 className='text-[42px] mt-5'>${pakage.price}</h1>
                                 <div className='py-5 flex flex-col gap-4 my-5'>
-                                    <h1 className='capitalize'>{pakage.website} pages website design</h1>
+                                    <h1 className='capitalize'>{pakage.website} page website design</h1>
                                     <h1 className='capitalize'>{pakage.responsive}</h1>
                                     <h1 className='capitalize'>{pakage.performance}</h1>
                                     <h1 className='capitalize'>{pakage.ecommerce}</h1>
                                     <h1 className='capitalize'>{pakage.seo}</h1>
                                     <h1 className='capitalize'>{pakage.spreed}</h1>
                                 </div>
-                                <button className='border rounded-full border-white px-8 py-2'>Order Now</button>
+                                <Link target={'_blank'} to="https://www.fiverr.com/ismail623/personal-website-business-website-portfolio-website-wordpress-modern-website">
+                                    <button className='border rounded-full border-white px-8 py-2'>Order Now</button>
+                                </Link>
+
                             </div>
                         )
                     })

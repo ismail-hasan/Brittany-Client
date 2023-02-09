@@ -35,8 +35,8 @@
     content: "";
     position: absolute;
     width: 300px;
-    height: 2px;
-    background-color: #fff;
+    height: 1px;
+    background-color: #464646;
     top: 24px;
     left: 153px;
 }

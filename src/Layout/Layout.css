@@ -7,7 +7,7 @@
 }
 
 .main-color {
-    background-image: linear-gradient(to right top, #141c64, #1e1d69, #271e6f, #2f1e74, #381e79, #341f75, #301f71, #2d1f6d, #1f1e5f, #141b50, #0c1841, #091432);
+   
 }
 
 .icon {
@@ -16,6 +16,6 @@
 }
 
 .icon:hover {
-    color: rebeccapurple;
+    color: aqua;
     transform: translateY(-15%)
 }
