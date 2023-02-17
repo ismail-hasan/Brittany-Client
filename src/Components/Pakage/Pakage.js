@@ -33,7 +33,7 @@ const Pakage = () => {
         },
     ]
     return (
-        <div className='h-screen mt-20 relative'>
+        <div className='h-screen mt-20 '>
             <h1 className='line-heading text-[27px] capitalize text-white'>choose the pakage thats fit you need</h1>
             <div className='grid grid-cols-1 md:grid-cols-3 gap-8 mt-10'>
                 {

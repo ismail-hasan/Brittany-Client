@@ -16,7 +16,7 @@ import Header from '../Components/Header/Header';
 
 const Layout = () => {
     return (
-        <div className='bg-[#0A192F]  relative'>
+        <div className='bg-[#0A192F] h-'>
             <div className='hidden lg:flex fixed bottom-[130px] left-10  items-center flex-col gap-6'>
 
                 <Link to="https://github.com/ismail-hasan" target="_blank">

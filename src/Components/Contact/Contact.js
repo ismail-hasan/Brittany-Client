@@ -8,7 +8,7 @@ import "./Contact.css"
 
 const Contact = () => {
     return (
-        <div className='text-white relative h-screen mt-20'>
+        <div className='text-white h-screen md:mt-5 mt-[900px]'>
             <div className='pb-5 '>
                 <h1 className='line-heading text-[27px] text-white'>Contact Us</h1>
                 <p className='text-lg pt-2'>Although I’m not currently l open. Whetry my best to get back to you!

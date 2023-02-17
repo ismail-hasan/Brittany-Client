@@ -9,9 +9,11 @@ const Header = () => {
 
     let links = [
         { name: "home", link: "#" },
-        { name: "home", link: "#" },
-        { name: "home", link: "#" },
-        { name: "home", link: "#" }
+        { name: "about us", link: "#" },
+        { name: "services", link: "#" },
+        { name: "projects", link: "#" },
+        { name: "pakage", link: "#" },
+        { name: "contact us", link: "#" },
     ]
     return (
         <div className='w-full fixed top-0 left-0 z-50'>
@@ -27,7 +29,7 @@ const Header = () => {
                     }
                 </div>
 
-                <ul className={`md:flex md:items-center text-[18px] capitalize md:pb-0 pb-10 absolute md:static bg-white w-full md:w-auto left-0 md:pl-0 pl-[25px] transition-all duration-[1s] ease-in-out ${open ? "top-16 opacity-100" : "-top-[400px] md:opacity-100 opacity-0"}`}>
+                <ul className={`md:flex md:items-center text-[17px] capitalize md:pb-0 pb-10 absolute md:static bg-white w-full md:w-auto left-0 md:pl-0 pl-[25px] transition-all duration-[1s] ease-in-out ${open ? "top-16 opacity-100" : "-top-[400px] md:opacity-100 opacity-0"}`}>
                     {
                         links.map((link, idx) => {
                             return (
