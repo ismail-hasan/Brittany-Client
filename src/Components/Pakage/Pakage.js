@@ -49,7 +49,7 @@ const Pakage = () => {
                                     <h1 className='capitalize'>{pakage.seo}</h1>
                                     <h1 className='capitalize'>{pakage.spreed}</h1>
                                 </div>
-                                <Link target={'_blank'} to="https://www.fiverr.com/ismail623/personal-website-business-website-portfolio-website-wordpress-modern-website">
+                                <Link target={'_blank'} to="https://www.fiverr.com/ismail623/">
                                     <button className='border rounded-full border-white px-8 py-2'>Order Now</button>
                                 </Link>
 
