@@ -9,7 +9,7 @@ const Pakage = () => {
             price: 5,
             website: 1,
             responsive: "responsive design",
-            ecommerce: "eCommerce",
+            ecommerce: "e-commerce functionality",
             seo: "basic SEO",
             spreed: "speed optimization"
         },
@@ -18,8 +18,8 @@ const Pakage = () => {
             website: "3-5",
             price: 95,
             responsive: "responsive design",
-            ecommerce: "eCommerce",
-            seo: "basic SEO",
+            ecommerce: "e-commerce functionality",
+            seo: "A Complete SEO ",
             spreed: "speed optimization"
         },
         {
@@ -27,13 +27,13 @@ const Pakage = () => {
             price: 150,
             website: "6-10",
             responsive: "responsive design",
-            ecommerce: "eCommerce",
-            seo: "basic SEO",
+            ecommerce: "e-commerce functionality",
+            seo: "A Complete SEO ",
             spreed: "speed optimization"
         },
     ]
     return (
-        <div className='h-screen mt-20 '>
+        <section id='pakage' className='h-screen mt-20 '>
             <h1 className='line-heading text-[27px] capitalize text-white'>choose the pakage thats fit you need</h1>
             <div className='grid grid-cols-1 md:grid-cols-3 gap-8 mt-10'>
                 {
@@ -59,7 +59,7 @@ const Pakage = () => {
                 }
 
             </div>
-        </div>
+        </section>
     );
 };
 

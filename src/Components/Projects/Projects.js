@@ -5,9 +5,9 @@ import { AiOutlineGithub } from 'react-icons/ai';
 
 const Projects = () => {
     return (
-        <div className='relative mt-[890px] md:mt-0'>
+        <section id='projects' className='relative mt-[890px] md:mt-0'>
             <h1 className='line-heading text-[27px] mt-20 text-white'>Our Projects</h1>
-            <p className='text-white text-lg'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum rerum voluptate atque vero distinctio!</p>
+            <p className='text-white text-lg'>Some of the projects I have done recently are mentioned here</p>
             <div className='flex items-center gap-x-[45px] mt-20'>
                 <div className='w-[60%]'>
                     <img className='' src="https://plus.unsplash.com/premium_photo-1668473365948-8a92c2d1fa78?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80" alt="" />
@@ -30,6 +30,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
+
             {/* ///// */}
             <div className='flex items-center gap-x-[45px] mt-20'>
                 <div className='w-[40%] text-white z-10'>
@@ -76,7 +77,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

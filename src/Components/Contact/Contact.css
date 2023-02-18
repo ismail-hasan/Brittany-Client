@@ -55,17 +55,32 @@
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     padding: 10px 40px;
-    z-index: 99;
+
 }
 
-.css-glass::before {
+.css-glass2::before {
     content: "";
     position: absolute;
-    background-color: aqua;
-    height: 150px;
-    width: 150px;
-    bottom: -15px;
-    right: -15px;
+    background: #40ff00;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px #40ff00;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(45px);
+    height: 80px;
+    width: 80px;
+    top: -30px;
+    left: 344px;
     border-radius: 50%;
-    z-index: -99;
+    z-index: -50;
+}
+
+.box {
+    position: absolute;
+    background: #40ff00;
+    height: 80px;
+    width: 80px;
+    top: -45px;
+    right: 10px;
+
+
 }

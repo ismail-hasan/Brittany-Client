@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import Button from '../../Custom Hook/Button';
+
 import { HiOutlineBars3BottomRight, HiBars3BottomLeft } from 'react-icons/hi2';
 
 const Header = () => {
@@ -29,8 +30,8 @@ const Header = () => {
 
 
     return (
-        <div className='w-full fixed top-0 left-0 z-50'>
-            <div className='md:flex md:items-center md:justify-between bg-white px-[50px] md:px-[100px] py-3'>
+        <div className='w-full fixed top-0 left-0 z-[999]'>
+            <div className='md:flex md:items-center md:justify-between bg-white px-[50px] md:px-[100px] py-2'>
                 <h1 className='text-[35px] font-bold'>ISMAIL</h1>
                 <div onClick={() => setOpen(!open)} className='md:hidden text-3xl absolute right-5 top-6 transition-all duration-[5s] ease-out'>
                     {
@@ -48,8 +49,8 @@ const Header = () => {
                             return (
                                 <div key={idx}>
                                     <div>
-                                        <li className='ml-7 md:my-0 my-5'>
-                                            <Link to="/">{link.name}</Link>
+                                        <li className='ml-7 md:my-0 my-2'>
+                                        <Link className='cursor-pointer' to={link.name} spy={true} smooth={true} offset={50} duration={900} >{link.name}</Link>
                                         </li>
                                     </div>
                                 </div>

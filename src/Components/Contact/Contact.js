@@ -8,18 +8,17 @@ import "./Contact.css"
 
 const Contact = () => {
     return (
-        <div className='text-white h-screen md:mt-5 mt-[900px]'>
+        <section id='contact us' className='text-white h-screen md:mt-5 mt-[900px]'>
             <div className='pb-5 '>
                 <h1 className='line-heading text-[27px] text-white'>Contact Us</h1>
-                <p className='text-lg pt-2'>Although I’m not currently l open. Whetry my best to get back to you!
-                </p>
+                <p className='text-lg pt-2'>Fill out the form below to contact me. And if there is an agent please call me.</p>
             </div>
 
-            <div className='md:flex gap-16 mt-10 items-center justify-center text-lg '>
-                <div className='css-glass w-[100%] md:w-[40%] '>
+            <div className='md:flex gap-16 css-glass2 relative mt-10 items-center justify-center text-lg z-50'>
+                <div className='css-glass w-[100%] md:w-[40%] z-10'>
                     <div className='py-8'>
                         <h1 className='text-[28px] py-4'>Contact Information</h1>
-                        <p> Lorem ipsuolor laboriosam  aut aut aut a maxime praesentium magni.</p>
+                        <p>Here is all my information. Use the information to contact me</p>
                         <div className='flex items-center mt-5'>
                             <BsTelephone className='text-[20px]'></BsTelephone>
                             <div className='ml-5'>
@@ -56,10 +55,10 @@ const Contact = () => {
                         <textarea type="" id="message" rows="7" cols="50" autoComplete="off" required />
                         <label htmlFor="message">Message</label>
                     </div>
-                    <button className='bg-indigo-500 px-5 py-2 mt-5'>Send Message</button>
+                    <button className='bg-[#40ff00] px-5 py-2 mt-5'>Send Message</button>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 
