@@ -47,7 +47,7 @@
 
 .list li::before {
     content: "«";
-    color: rgb(8, 232, 83);
+    color: #40ff00;
     font-weight: bold;
     display: inline-block;
     width: 2em;

@@ -8,9 +8,18 @@ const About = () => {
             <div className='w-full md:w-[50%] relative'>
                 <h1 className='line-heading text-[27px] text-white'>About Me</h1>
                 <div className='text-[#8892b0] text-lg'>
-                    <h1 className='my-5 '>Hello! My name is Brittany and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS! </h1>
-                    <h1 className='text-white'>Hello! My name is Brittany and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS! </h1>
-                    <div className='flex mt-5 '>
+                    {/* <h1 className='my-3 '> I am working as a web developer since 2019. I have lots of experience in web development. I love and enjoy web base design.</h1> */}
+                    <h1 className='my-3 '>
+                        Hello! I am Ismail Hossain. I am a professional web developer and WordPress Expart.
+                        I will build a modern, responsive, and elegant website for you.
+                        I am an experienced web developer and WordPress expert with a strong background in creating beautiful, quality full websites.
+                    </h1>
+                    <h1>Our website designs are clean and modern, with a responsive design so that they look great on every device.
+                        We also use the latest technologies to make sure your site loads fast. Please come on chat so we can discuss more your work.
+                        Thank You
+                    </h1>
+
+                    <div className='flex mt-3 '>
                         <ul className='w-[200px] list'>
                             <li>JavaScript (ES6+)</li>
                             <li>Node.js</li>

@@ -11,7 +11,7 @@ const Pakage = () => {
             responsive: "responsive design",
             ecommerce: "eCommerce",
             seo: "basic SEO",
-            spreed: "spreed optimization"
+            spreed: "speed optimization"
         },
         {
             plan: "Standard",
@@ -20,7 +20,7 @@ const Pakage = () => {
             responsive: "responsive design",
             ecommerce: "eCommerce",
             seo: "basic SEO",
-            spreed: "spreed optimization"
+            spreed: "speed optimization"
         },
         {
             plan: "Premium",
@@ -29,7 +29,7 @@ const Pakage = () => {
             responsive: "responsive design",
             ecommerce: "eCommerce",
             seo: "basic SEO",
-            spreed: "spreed optimization"
+            spreed: "speed optimization"
         },
     ]
     return (

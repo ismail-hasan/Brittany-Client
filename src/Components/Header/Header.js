@@ -4,7 +4,18 @@ import Button from '../../Custom Hook/Button';
 import { HiOutlineBars3BottomRight, HiBars3BottomLeft } from 'react-icons/hi2';
 
 const Header = () => {
-
+    // Function will execute on click of button
+    const onButtonClick = () => {
+        fetch('').then(response => {
+            response.blob().then(blob => {
+                const fileURL = window.URL.createObjectURL(blob);
+                let alink = document.createElement('a');
+                alink.href = fileURL;
+                alink.download = 'Md Ismail Hasan Resume';
+                alink.click();
+            })
+        })
+    }
     const [open, setOpen] = useState(false)
 
     let links = [
@@ -15,6 +26,8 @@ const Header = () => {
         { name: "pakage", link: "#" },
         { name: "contact us", link: "#" },
     ]
+
+
     return (
         <div className='w-full fixed top-0 left-0 z-50'>
             <div className='md:flex md:items-center md:justify-between bg-white px-[50px] md:px-[100px] py-3'>
@@ -43,7 +56,9 @@ const Header = () => {
                             )
                         })
                     }
-                    <Button>Resume</Button>
+                    <span onClick={onButtonClick}>
+                        <Button>Resume</Button>
+                    </span>
                 </ul>
             </div>
         </div>
