@@ -75,10 +75,10 @@ const Projects = () => {
                         <p className='bg-[#112240] -ml-32 p-5'>A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control,  dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm. Atom Package Manager, and npm.</p>
                     </div>
                     <div className='flex justify-between mt-5'>
-                        <p className='bg-red-500 text-white px-5 py-1 rounded-[30px]'>html5</p>
-                        <p className='bg-red-500 text-white px-5 py-1 rounded-[30px]'>html5</p>
-                        <p className='bg-red-500 text-white px-5 py-1 rounded-[30px]'>html5</p>
-                        <p className='bg-red-500 text-white px-5 py-1 rounded-[30px]'>html5</p>
+                        <p className='bg-red-500 text-white px-5 py-1 rounded-[30px]'>TailWind</p>
+                        <p className='bg-red-500 text-white px-5 py-1 rounded-[30px]'>React</p>
+                        <p className='bg-red-500 text-white px-5 py-1 rounded-[30px]'>Express</p>
+                        <p className='bg-red-500 text-white px-5 py-1 rounded-[30px]'>CSS</p>
                     </div>
                     <div className='flex mt-4'>
                         <Link to="https://github.com/ismail-hasan/E-Commerce-Development" target='_blank'>
