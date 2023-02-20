@@ -8,7 +8,7 @@ import "./Contact.css"
 
 const Contact = () => {
     return (
-        <section id='contact us' className='text-white h-screen md:mt-5 mt-[900px]'>
+        <section id='contact' className='text-white h-screen md:mt-5 mt-[900px]'>
             <div className='pb-5 '>
                 <h1 className='line-heading text-[27px] text-white'>Contact Us</h1>
                 <p className='text-lg pt-2'>Fill out the form below to contact me. And if there is an agent please call me.</p>

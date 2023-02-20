@@ -4,7 +4,7 @@ import img from "../../assests/IMG_20190303_112235.jpg"
 
 const About = () => {
     return (
-        <section id='about us' className='md:flex justify-between items-center h-screen'>
+        <section id='about' className='md:flex justify-between items-center h-screen'>
             <div className='w-full md:w-[50%] relative'>
                 <h1 className='line-heading text-[27px] text-white'>About Me</h1>
                 <div className='text-[#8892b0] text-lg'>

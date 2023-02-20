@@ -7,7 +7,7 @@ import { HiOutlineBars3BottomRight, HiBars3BottomLeft } from 'react-icons/hi2';
 const Header = () => {
     // Function will execute on click of button
     const onButtonClick = () => {
-        fetch(' Hossain Resume .pdf').then(response => {
+        fetch('Ismail Hossain Resume .pdf').then(response => {
             response.blob().then(blob => {
                 const fileURL = window.URL.createObjectURL(blob);
                 let alink = document.createElement('a');
@@ -50,7 +50,7 @@ const Header = () => {
                                 <div key={idx}>
                                     <div>
                                         <li className='ml-7 md:my-0 my-2 hover:text-[#40ff00] duration-300 ease-in-out'>
-                                            <Link className='cursor-pointer' to={link.name} spy={true} smooth={true} offset={-80} duration={900} >{link.name}</Link>
+                                            <Link className='cursor-pointer' to={link.name} spy={true} smooth={true} offset={-80} duration={1000} >{link.name}</Link>
                                         </li>
                                     </div>
                                 </div>
